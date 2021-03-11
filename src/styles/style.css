@@ -5,6 +5,24 @@
   padding: 0;
 }
 
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  width: 550px;
+  height: 250px;
+}
+
 .login-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,7 +34,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 100px auto;
+  margin: 0px auto;
   text-align: center;
   border: 1px solid #9e9898;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -72,5 +90,17 @@
 
 button {
   margin: 5px;
+}
+
+.facebook-btn {
+  background: #4267b2;
+  border-radius: 3px;
+  padding: 8px 50px 8px 50px;
+  border: none;
+  color: white;
+  font-size: 13px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
