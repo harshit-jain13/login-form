@@ -2,7 +2,7 @@ import "./styles/style.css";
 import { LoginForm } from "./components/loginForm.js";
 import { useState, useEffect } from "react";
 import { Profile } from "./components/profile.js";
-import image from "./nike.jpg";
+// import image from "./nike.jpg";
 function App() {
   const [user, setUser] = useState({
     id: "",
@@ -34,7 +34,6 @@ function App() {
 
   return (
     <div className="app">
-      <img src={image} alt="nike" />
       {logState ? (
         <Profile user={user} handleUser={handleUser} log={handleLogState} />
       ) : (
